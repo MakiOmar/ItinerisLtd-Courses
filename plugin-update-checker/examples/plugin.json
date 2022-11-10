@@ -1,8 +1,8 @@
  {
- 	"name" : "AnonyEngine",
- 	"version" : "1.0.0145",
- 	"download_url" : "https://github.com/MakiOmar/AnonyEngine/archive/refs/heads/master.zip",
+ 	"name" : "ItinerisLtd Courses",
+ 	"version" : "1.0.01",
+ 	"download_url" : "https://github.com/MakiOmar/ItinerisLtd-Courses/archive/refs/heads/master.zip",
  	"sections" : {
- 		"description" : "With AnonyEngine you can add any kind of metaboxes and options pages and forms easily and supper fast"
+ 		"description" : "Adds simple courses"
  	}
  }

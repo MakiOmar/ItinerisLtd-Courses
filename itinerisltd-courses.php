@@ -16,7 +16,7 @@
  * Plugin Name:       ItinerisLtd Courses
  * Plugin URI:        https://github.com/MakiOmar/ItinerisLtd-Courses
  * Description:       Adds simple course
- * Version:           1.0.0
+ * Version:           1.0.01
  * Author:            Makiomar
  * Author URI:        https://github.com/MakiOmar
  * License:           GPL-2.0+
