@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => 'a2db329a85705f70ac0c17aa5209ba28455ef51a',
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => 'a2db329a85705f70ac0c17aa5209ba28455ef51a',
+            'dev_requirement' => false,
+        ),
+        'doctrine/inflector' => array(
+            'pretty_version' => 'v1.1.0',
+            'version' => '1.1.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../doctrine/inflector',
+            'aliases' => array(),
+            'reference' => '90b2128806bfde671b6952ab8bea493942c1fdae',
+            'dev_requirement' => false,
+        ),
+        'stoutlogic/acf-builder' => array(
+            'pretty_version' => 'v1.12.0',
+            'version' => '1.12.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../stoutlogic/acf-builder',
+            'aliases' => array(),
+            'reference' => 'e63ab87233ea3675cd519f1dd6b6d4230b3cef97',
+            'dev_requirement' => false,
+        ),
+    ),
+);
