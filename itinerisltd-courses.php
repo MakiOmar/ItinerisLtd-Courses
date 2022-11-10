@@ -38,6 +38,33 @@ if ( ! defined( 'WPINC' ) ) {
 define( 'ITINERISLTD_COURSES_VERSION', '1.0.0' );
 
 /**
+ * Holds plugin's slug
+ *
+ * @const
+ */
+define( 'ITINERISLTD_PLUGIN_SLUG', plugin_basename(__FILE__) );
+
+/**
+ * Holds plugin PATH
+ *
+ * @const
+ */
+define( 'ITINERISLTD_DIR', wp_normalize_path( plugin_dir_path( __FILE__ ) ) );
+
+require ITINERISLTD_DIR . 'vendor/autoload.php';
+
+require ITINERISLTD_DIR . 'plugin-update-checker/plugin-update-checker.php';
+
+$anonyengine_update_checker = Puc_v4_Factory::buildUpdateChecker(
+    'https://github.com/MakiOmar/ItinerisLtd-Courses',
+    __FILE__,
+    ITINERISLTD_PLUGIN_SLUG
+);
+
+//Set the branch that contains the stable release.
+$anonyengine_update_checker->setBranch('master');
+
+/**
  * The code that runs during plugin activation.
  * This action is documented in includes/class-itinerisltd-courses-activator.php
  */
